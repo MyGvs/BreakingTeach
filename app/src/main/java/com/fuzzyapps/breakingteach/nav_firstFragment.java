@@ -148,7 +148,7 @@ public class nav_firstFragment extends Fragment {
 
         @Override
         public TwoLinesViewHolder onCreateViewHolder(final ViewGroup parent, final int viewType) {
-            final View view = LayoutInflater.from(getContext()).inflate(R.layout.simple_card_item, parent, false);
+            final View view = LayoutInflater.from(getActivity()).inflate(R.layout.simple_card_item, parent, false);
             final TwoLinesViewHolder holder = new TwoLinesViewHolder(view);
             return holder;
         }
