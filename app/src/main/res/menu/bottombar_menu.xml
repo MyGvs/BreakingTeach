@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:bbn_badgeColor="#FFFF0000"
+    app:bbn_rippleColor="#33ffffff">
+    <item
+        android:id="@+id/firstView"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/ic_cloud_off_white_24dp"
+        android:title="@string/nav_firstRragmentTitle" />
+    <item
+        android:id="@+id/secondView"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/ic_cast_connected_white_24dp"
+        android:title="@string/nav_secondFragmentTitle" />
+    <item
+        android:id="@+id/thirdView"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/ic_mail_white_24dp"
+        android:title="@string/nav_thirdFragmentTitle" />
+    <item
+        android:id="@+id/fourthView"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/ic_format_list_numbered_white_24dp"
+        android:title="@string/nav_fourthFragmentTitle" />
+    <item
+        android:id="@+id/fifthView"
+        android:color="@color/colorPrimary"
+        android:icon="@drawable/ic_cloud_off_white_24dp"
+        android:title="@string/nav_fifthFragmentTitle" />
+</menu>

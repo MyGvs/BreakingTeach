@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Breaking Teach</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_firstRragmentTitle">Foro</string>
+    <string name="nav_secondFragmentTitle">Avatar</string>
+    <string name="nav_thirdFragmentTitle">Tienda</string>
+    <string name="nav_fourthFragmentTitle">Minijuegos</string>
+    <string name="nav_fifthFragmentTitle">Ajustes</string>
+</resources>
