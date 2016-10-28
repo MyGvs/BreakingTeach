@@ -23,16 +23,17 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@android:id/icon"
+            android:id="@+id/@android:id/icon"
             android:layout_width="@dimen/simple_card_image_width"
             android:layout_height="@dimen/simple_card_image_height"
             android:background="@android:color/darker_gray"
             android:scaleType="fitXY"
-            android:contentDescription="Image" />
+            android:contentDescription="Image"
+            android:elevation="1dp" />
 
         <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
             android:paddingBottom="8dp"
@@ -73,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/spacer"
-                android:text="FREE SAMPLE"
+                android:text="ENTRAR"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/colorButton" />
 
@@ -84,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignTop="@android:id/button1"
                 android:layout_toRightOf="@android:id/button1"
-                android:text="REVIEW"
+                android:text="SOLICITAR ACCESO"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="@color/colorButton" />
 
